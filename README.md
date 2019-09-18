@@ -1,7 +1,7 @@
 # aliddns shell脚本
 
 ## 安装
-ubuntu/debain
+ubuntu/debian
 ```
 apt-get install wget curl dnsutils openssl cron -y
 wget -N --no-check-certificate https://raw.githubusercontent.com/lllvcs/aliddns/master/aliddns.sh
