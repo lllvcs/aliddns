@@ -1,6 +1,6 @@
-## aliddns shell脚本
+# aliddns shell脚本
 
-# 安装
+## 安装
 ubuntu/debain
 ```
 apt-get install wget curl dnsutils openssl cron -y
@@ -15,7 +15,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/lllvcs/aliddns/
 chmod +x ./aliddns.sh
 ```
 
-# 设置定时任务
+## 设置定时任务
 ```
 crontab -e
 */1 * * * * bash /root/aliddns.sh
