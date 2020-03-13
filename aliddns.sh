@@ -4,11 +4,13 @@ now=`date`
 
 aliddns_ak="AccessKeyId"
 aliddns_sk="AccessKeySecret"
-aliddns_curl="curl -s http://members.3322.org/dyndns/getip"
-#aliddns_curl="curl -s http://api.ip.la"
+
+aliddns_curl="curl -s http://ip.sb"
+#aliddns_curl="curl -s http://members.3322.org/dyndns/getip"
+#aliddns_curl="curl -s http://api.myip.la"
 #aliddns_curl="curl -s http://ip.6655.com/ip.aspx"
 #aliddns_curl="curl -s http://ip.3322.net"
-#aliddns_curl="curl -s https://api.ip.sb/ip"
+
 aliddns_dns="223.5.5.5"
 aliddns_ttl="600"
 aliddns_domain="example.com"
