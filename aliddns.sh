@@ -5,7 +5,8 @@ now=`date`
 aliddns_ak="AccessKeyId"
 aliddns_sk="AccessKeySecret"
 
-aliddns_curl="curl -s http://ip.sb"
+aliddns_curl="curl -s whatismyip.akamai.com"
+#aliddns_curl="curl -s http://ip.sb"
 #aliddns_curl="curl -s http://members.3322.org/dyndns/getip"
 #aliddns_curl="curl -s http://api.myip.la"
 #aliddns_curl="curl -s http://ip.6655.com/ip.aspx"
